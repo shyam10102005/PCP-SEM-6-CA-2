@@ -1,0 +1,715 @@
+[
+  {
+    "orderId": 1001,
+    "customerName": "Arun",
+    "restaurant": "Spice Hub",
+    "items": [
+      {
+        "name": "Biryani",
+        "price": 250,
+        "quantity": 2
+      },
+      {
+        "name": "Raita",
+        "price": 50,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 550,
+    "status": "Delivered",
+    "deliveryTime": "30 mins",
+    "rating": 4.5
+  },
+  {
+    "orderId": 1002,
+    "customerName": "Priya",
+    "restaurant": "Pizza Palace",
+    "items": [
+      {
+        "name": "Margherita Pizza",
+        "price": 300,
+        "quantity": 1
+      },
+      {
+        "name": "Garlic Bread",
+        "price": 120,
+        "quantity": 2
+      }
+    ],
+    "totalAmount": 540,
+    "status": "Pending",
+    "deliveryTime": "45 mins",
+    "rating": 4
+  },
+  {
+    "orderId": 1003,
+    "customerName": "Karthik",
+    "restaurant": "Burger Barn",
+    "items": [
+      {
+        "name": "Cheese Burger",
+        "price": 180,
+        "quantity": 3
+      },
+      {
+        "name": "Fries",
+        "price": 100,
+        "quantity": 2
+      }
+    ],
+    "totalAmount": 740,
+    "status": "Cancelled",
+    "deliveryTime": null,
+    "rating": null
+  },
+  {
+    "orderId": 1004,
+    "customerName": "Divya",
+    "restaurant": "Spice Hub",
+    "items": [
+      {
+        "name": "Chicken 65",
+        "price": 200,
+        "quantity": 1
+      },
+      {
+        "name": "Naan",
+        "price": 40,
+        "quantity": 4
+      }
+    ],
+    "totalAmount": 360,
+    "status": "Delivered",
+    "deliveryTime": "25 mins",
+    "rating": 4.8
+  },
+  {
+    "orderId": 1005,
+    "restaurant": "Wok Express",
+    "items": [
+      {
+        "name": "Noodles",
+        "price": 150,
+        "quantity": 2
+      },
+      {
+        "name": "Manchurian",
+        "price": 180,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 480,
+    "status": "Pending",
+    "deliveryTime": "35 mins",
+    "rating": 3.5
+  },
+  {
+    "orderId": 1006,
+    "customerName": "Ravi",
+    "restaurant": "Pizza Palace",
+    "items": [],
+    "totalAmount": 0,
+    "status": "Cancelled",
+    "deliveryTime": null,
+    "rating": null
+  },
+  {
+    "orderId": 1007,
+    "customerName": "Sneha",
+    "restaurant": "Spice Hub",
+    "items": [
+      {
+        "name": "Paneer Tikka",
+        "price": 220,
+        "quantity": 1
+      },
+      {
+        "name": "Dal Makhani",
+        "price": 180,
+        "quantity": 1
+      },
+      {
+        "name": "Butter Naan",
+        "price": 50,
+        "quantity": 3
+      }
+    ],
+    "totalAmount": 550,
+    "status": "Delivered",
+    "deliveryTime": "20 mins",
+    "rating": 5
+  },
+  {
+    "orderId": 1008,
+    "customerName": "Vikram",
+    "restaurant": "Burger Barn",
+    "items": [
+      {
+        "name": "Veggie Burger",
+        "price": 150,
+        "quantity": -1
+      }
+    ],
+    "totalAmount": 150,
+    "status": "Pending",
+    "deliveryTime": "40 mins",
+    "rating": 3
+  },
+  {
+    "orderId": 1009,
+    "customerName": "Meena",
+    "restaurant": "Wok Express",
+    "items": [
+      {
+        "name": "Fried Rice",
+        "price": 160,
+        "quantity": 2
+      },
+      {
+        "name": "Spring Roll",
+        "price": 120,
+        "quantity": 3
+      }
+    ],
+    "totalAmount": 680,
+    "status": "Delivered",
+    "deliveryTime": "30 mins",
+    "rating": 4.2
+  },
+  {
+    "orderId": 1010,
+    "customerName": "Suresh",
+    "restaurant": "Dosa Corner",
+    "items": [
+      {
+        "name": "Masala Dosa",
+        "price": 80,
+        "quantity": 2
+      },
+      {
+        "name": "Filter Coffee",
+        "price": 30,
+        "quantity": 2
+      }
+    ],
+    "totalAmount": 220,
+    "status": "Pending",
+    "deliveryTime": "15 mins",
+    "rating": 4.6
+  },
+  {
+    "orderId": 1011,
+    "customerName": "Anitha",
+    "restaurant": "Spice Hub",
+    "items": [
+      {
+        "name": "Mutton Biryani",
+        "price": 350,
+        "quantity": 1
+      },
+      {
+        "name": "Raita",
+        "price": 50,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": "invalid",
+    "status": "Delivered",
+    "deliveryTime": "35 mins",
+    "rating": 4.7
+  },
+  {
+    "orderId": 1012,
+    "customerName": "Deepak",
+    "restaurant": "Pizza Palace",
+    "items": [
+      {
+        "name": "Pepperoni Pizza",
+        "price": 400,
+        "quantity": 1
+      },
+      {
+        "name": "Coke",
+        "price": 60,
+        "quantity": 2
+      }
+    ],
+    "totalAmount": 520,
+    "status": "Cancelled",
+    "deliveryTime": null,
+    "rating": null
+  },
+  {
+    "orderId": 1013,
+    "customerName": "Lakshmi",
+    "restaurant": "Dosa Corner",
+    "items": [
+      {
+        "name": "Rava Dosa",
+        "price": 90,
+        "quantity": 1
+      },
+      {
+        "name": "Sambar Vada",
+        "price": 60,
+        "quantity": 2
+      }
+    ],
+    "totalAmount": 210,
+    "status": "Delivered",
+    "deliveryTime": "20 mins",
+    "rating": 4.3
+  },
+  {
+    "orderId": 1014,
+    "customerName": "Mohan",
+    "restaurant": "Burger Barn",
+    "items": [
+      {
+        "name": "Double Patty Burger",
+        "price": 250,
+        "quantity": 2
+      },
+      {
+        "name": "Onion Rings",
+        "price": 80,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 580,
+    "status": "Pending",
+    "deliveryTime": "50 mins",
+    "rating": 3.8
+  },
+  {
+    "orderId": 1015,
+    "customerName": "Kavitha",
+    "restaurant": "Wok Express",
+    "items": [
+      {
+        "name": "Schezwan Noodles",
+        "price": 170,
+        "quantity": 1
+      },
+      {
+        "name": "Chilli Chicken",
+        "price": 220,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 390,
+    "status": "Delivered",
+    "deliveryTime": "25 mins",
+    "rating": 4.1
+  },
+  {
+    "orderId": 1016,
+    "customerName": "Ganesh",
+    "restaurant": "Spice Hub",
+    "items": [
+      {
+        "name": "Chettinad Chicken",
+        "price": 280,
+        "quantity": 1
+      },
+      {
+        "name": "Parotta",
+        "price": 30,
+        "quantity": 4
+      }
+    ],
+    "totalAmount": 400,
+    "status": "Delivered",
+    "deliveryTime": "30 mins",
+    "rating": 4.9
+  },
+  {
+    "orderId": 1017,
+    "customerName": "Revathi",
+    "restaurant": "Pizza Palace",
+    "items": [
+      {
+        "name": "Farmhouse Pizza",
+        "price": 350,
+        "quantity": 1
+      },
+      {
+        "name": "Pasta",
+        "price": 200,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 550,
+    "status": "Pending",
+    "deliveryTime": "40 mins",
+    "rating": 3.9
+  },
+  {
+    "orderId": 1018,
+    "customerName": "Bala",
+    "restaurant": "Dosa Corner",
+    "items": [
+      {
+        "name": "Ghee Roast Dosa",
+        "price": 110,
+        "quantity": 2
+      },
+      {
+        "name": "Kesari",
+        "price": 50,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 270,
+    "status": "Delivered",
+    "deliveryTime": "18 mins",
+    "rating": 4.4
+  },
+  {
+    "orderId": 1019,
+    "customerName": "Selvi",
+    "restaurant": "Burger Barn",
+    "items": [
+      {
+        "name": "Chicken Burger",
+        "price": 200,
+        "quantity": 1
+      },
+      {
+        "name": "Milkshake",
+        "price": 120,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 320,
+    "status": "Cancelled",
+    "deliveryTime": null,
+    "rating": null
+  },
+  {
+    "orderId": 1020,
+    "customerName": "Harish",
+    "restaurant": "Wok Express",
+    "items": [
+      {
+        "name": "Hakka Noodles",
+        "price": 140,
+        "quantity": 2
+      },
+      {
+        "name": "Gobi Manchurian",
+        "price": 160,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 440,
+    "status": "Delivered",
+    "deliveryTime": "28 mins",
+    "rating": 4
+  },
+  {
+    "orderId": 1021,
+    "customerName": "Janani",
+    "restaurant": "Spice Hub",
+    "items": [
+      {
+        "name": "Veg Biryani",
+        "price": 200,
+        "quantity": 1
+      },
+      {
+        "name": "Curd Rice",
+        "price": 80,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 280,
+    "status": "Pending",
+    "deliveryTime": "22 mins",
+    "rating": 4.5
+  },
+  {
+    "orderId": 1022,
+    "customerName": "Prakash",
+    "restaurant": "Pizza Palace",
+    "items": [
+      {
+        "name": "BBQ Chicken Pizza",
+        "price": 450,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 450,
+    "status": "Delivered",
+    "deliveryTime": "35 mins",
+    "rating": 4.6
+  },
+  {
+    "orderId": 1023,
+    "customerName": "Uma",
+    "restaurant": "Dosa Corner",
+    "items": [
+      {
+        "name": "Set Dosa",
+        "price": 70,
+        "quantity": 3
+      },
+      {
+        "name": "Chutney",
+        "price": 20,
+        "quantity": 2
+      }
+    ],
+    "totalAmount": 250,
+    "status": "Delivered",
+    "deliveryTime": "15 mins",
+    "rating": 4.2
+  },
+  {
+    "orderId": 1024,
+    "customerName": "Saravanan",
+    "restaurant": "Burger Barn",
+    "items": [
+      {
+        "name": "Fish Burger",
+        "price": 220,
+        "quantity": 1
+      },
+      {
+        "name": "Coleslaw",
+        "price": 60,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 280,
+    "status": "Pending",
+    "deliveryTime": "45 mins",
+    "rating": 3.7
+  },
+  {
+    "orderId": 1025,
+    "customerName": "Nithya",
+    "restaurant": "Wok Express",
+    "items": [
+      {
+        "name": "Veg Fried Rice",
+        "price": 130,
+        "quantity": 1
+      },
+      {
+        "name": "Paneer Chilli",
+        "price": 190,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 320,
+    "status": "Delivered",
+    "deliveryTime": "30 mins",
+    "rating": 4.3
+  },
+  {
+    "orderId": 1026,
+    "customerName": "Ramesh",
+    "restaurant": "Spice Hub",
+    "items": [
+      {
+        "name": "Fish Curry",
+        "price": 300,
+        "quantity": 1
+      },
+      {
+        "name": "Rice",
+        "price": 60,
+        "quantity": 2
+      }
+    ],
+    "totalAmount": 420,
+    "status": "Cancelled",
+    "deliveryTime": null,
+    "rating": null
+  },
+  {
+    "orderId": 1027,
+    "customerName": "Geetha",
+    "restaurant": "Pizza Palace",
+    "items": [
+      {
+        "name": "Veggie Supreme Pizza",
+        "price": 380,
+        "quantity": 1
+      },
+      {
+        "name": "Brownie",
+        "price": 100,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 480,
+    "status": "Delivered",
+    "deliveryTime": "38 mins",
+    "rating": 4.1
+  },
+  {
+    "orderId": 1028,
+    "customerName": "Ashok",
+    "restaurant": "Dosa Corner",
+    "items": [
+      {
+        "name": "Podi Dosa",
+        "price": 85,
+        "quantity": 2
+      },
+      {
+        "name": "Idli",
+        "price": 40,
+        "quantity": 3
+      }
+    ],
+    "totalAmount": 290,
+    "status": "Pending",
+    "deliveryTime": "20 mins",
+    "rating": 4.4
+  },
+  {
+    "orderId": 1029,
+    "customerName": "Thenmozhi",
+    "restaurant": "Burger Barn",
+    "items": [
+      {
+        "name": "Mushroom Burger",
+        "price": 190,
+        "quantity": 2
+      },
+      {
+        "name": "Sweet Potato Fries",
+        "price": 110,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 490,
+    "status": "Delivered",
+    "deliveryTime": "32 mins",
+    "rating": 4.5
+  },
+  {
+    "orderId": 1030,
+    "customerName": "Vijay",
+    "restaurant": "Wok Express",
+    "items": [
+      {
+        "name": "Dragon Chicken",
+        "price": 240,
+        "quantity": 1
+      },
+      {
+        "name": "Egg Fried Rice",
+        "price": 150,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 390,
+    "status": "Pending",
+    "deliveryTime": "35 mins",
+    "rating": 3.9
+  },
+  {
+    "orderId": 1031,
+    "customerName": "Saroja",
+    "restaurant": "Spice Hub",
+    "items": [
+      {
+        "name": "Egg Biryani",
+        "price": 220,
+        "quantity": 2
+      }
+    ],
+    "totalAmount": 440,
+    "status": "Delivered",
+    "deliveryTime": "28 mins",
+    "rating": 4.7
+  },
+  {
+    "orderId": 1032,
+    "customerName": "Kumar",
+    "restaurant": "Pizza Palace",
+    "items": [
+      {
+        "name": "Cheese Burst Pizza",
+        "price": 500,
+        "quantity": 1
+      },
+      {
+        "name": "Wings",
+        "price": 180,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 680,
+    "status": "Cancelled",
+    "deliveryTime": null,
+    "rating": null
+  },
+  {
+    "orderId": 1033,
+    "customerName": "Vani",
+    "restaurant": "Dosa Corner",
+    "items": [
+      {
+        "name": "Paper Dosa",
+        "price": 75,
+        "quantity": 2
+      },
+      {
+        "name": "Mysore Pak",
+        "price": 60,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 210,
+    "status": "Delivered",
+    "deliveryTime": "12 mins",
+    "rating": 4.8
+  },
+  {
+    "orderId": 1034,
+    "customerName": "Muthu",
+    "restaurant": "Burger Barn",
+    "items": [
+      {
+        "name": "BBQ Burger",
+        "price": 230,
+        "quantity": 1
+      },
+      {
+        "name": "Nachos",
+        "price": 90,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 320,
+    "status": "Delivered",
+    "deliveryTime": "42 mins",
+    "rating": 3.6
+  },
+  {
+    "orderId": 1035,
+    "customerName": "Padma",
+    "restaurant": "Wok Express",
+    "items": [
+      {
+        "name": "Chow Mein",
+        "price": 160,
+        "quantity": 1
+      },
+      {
+        "name": "Dim Sum",
+        "price": 140,
+        "quantity": 2
+      }
+    ],
+    "totalAmount": 440,
+    "status": "Pending",
+    "deliveryTime": "30 mins",
+    "rating": 4
+  }
+]

@@ -1,7 +1,6 @@
 import { createContext, useContext, useReducer, useEffect } from "react";
 import OrderReducer from "../reducer/OrderReducer";
-import { getToken, getDataset } from "../api/api";
-import initialOrders from "../data/initialOrders";
+import { getToken, getDataset, getOrdersFromGitHub } from "../api/api";
 
 const initialState = {
   orders: [],
@@ -16,17 +15,21 @@ export const OrderProvider = ({ children }) => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const tokenRes = await getToken(
-          "E0323053",
-          "769434",
-          "A"
-        );
+        // Try college API first
+        const tokenRes = await getToken("E0323053", "769434", "A");
         const orders = await getDataset(tokenRes.token, tokenRes.dataUrl);
         dispatch({ type: "SET_ORDERS", payload: orders });
       } catch (err) {
-        console.error("Error fetching data:", err.message);
-        console.log("Using fallback dataset...");
-        dispatch({ type: "SET_ORDERS", payload: initialOrders });
+        console.error("College API failed:", err.message);
+        try {
+          // Fallback: fetch from GitHub (data in the cloud, not local)
+          console.log("Fetching from GitHub...");
+          const orders = await getOrdersFromGitHub();
+          dispatch({ type: "SET_ORDERS", payload: orders });
+        } catch (err2) {
+          console.error("GitHub fetch also failed:", err2.message);
+          dispatch({ type: "SET_ORDERS", payload: [] });
+        }
       }
     };
 
